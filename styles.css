@@ -6,7 +6,6 @@
  body {
      margin: 0;
      padding: 0;
-     padding-bottom: 300px;
  }
  
  
@@ -198,6 +197,7 @@
 article {
     flex: 1;
     min-width: 300px;
+    margin-right: 20px;
 }
 
 article a {
@@ -242,3 +242,65 @@ article .news_resume {
     font-size: 16px;
 }
 
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer_menu {
+    display: flex;
+}
+
+.fm_1, .fm_2, .fm_3 {
+    flex: 1;
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+
+.fm_1 {
+    background-color: rgb(34, 34, 248);
+}
+.fm_2 {
+    background-color: rgb(255, 217, 0);
+}
+.fm_3 {
+    background-color: orangered;
+}
+
+
+
+.footer_area {
+    display: flex;
+    color: white;
+}
+
+
+.footer_areaitem {
+    flex: 1;
+}
+
+
+.flexColumn {
+    flex-direction: column;
+}
+
+
+
+footer .widget_title_text {
+    color: white;
+}
+
+
+.footer_copy {
+    border-top: 1px solid rgb(92, 91, 91);
+    height: 40px;
+    color:#5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+
+}
